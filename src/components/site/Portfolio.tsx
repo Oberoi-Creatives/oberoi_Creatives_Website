@@ -25,12 +25,14 @@ const GENRES: Genre[] = [
     items: [
       { id: "promo-1", title: "Store Promo Reel 1", embedUrl: "https://www.youtube.com/embed/lRiYojq7fN4" },
       { id: "promo-2", title: "Store Promo Reel 2", embedUrl: "https://www.youtube.com/embed/EE8iAAUzkD0" },
-      { id: "promo-3", title: "Store Promo Reel 3", embedUrl: "https://www.youtube.com/embed/Y9WrR1YvMDo" },
-      { id: "promo-4", title: "Store Promo Reel 4", embedUrl: "https://www.youtube.com/embed/IRnvhAsKBAE" },
-      { id: "promo-5", title: "Store Promo Reel 5", embedUrl: "https://www.youtube.com/embed/DqmfWDnjw4E" },
-      { id: "promo-6", title: "Store Promo Reel 6", embedUrl: "https://www.youtube.com/embed/HCjJS8NbIKU" },
-      { id: "promo-7", title: "Store Promo Reel 7", embedUrl: "https://www.youtube.com/embed/qTT7lduFkYg" },
-      { id: "promo-8", title: "Store Promo Reel 8", embedUrl: "https://www.youtube.com/embed/FE9H1tcPE1k" }
+      { id: "promo-3", title: "Store Promo Reel 3", embedUrl: "https://www.youtube.com/embed/ebjeZun4Muo" },
+      { id: "promo-4", title: "Store Promo Reel 4", embedUrl: "https://www.youtube.com/embed/Y9WrR1YvMDo" },
+      { id: "promo-5", title: "Store Promo Reel 5", embedUrl: "https://www.youtube.com/embed/r4eklMSSlmo" },
+      { id: "promo-6", title: "Store Promo Reel 6", embedUrl: "https://www.youtube.com/embed/IRnvhAsKBAE" },
+      { id: "promo-7", title: "Store Promo Reel 7", embedUrl: "https://www.youtube.com/embed/DqmfWDnjw4E" },
+      { id: "promo-8", title: "Store Promo Reel 8", embedUrl: "https://www.youtube.com/embed/HCjJS8NbIKU" },
+      { id: "promo-9", title: "Store Promo Reel 9", embedUrl: "https://www.youtube.com/embed/qTT7lduFkYg" },
+      { id: "promo-10", title: "Store Promo Reel 10", embedUrl: "https://www.youtube.com/embed/FE9H1tcPE1k" }
     ],
   },
   {
@@ -42,8 +44,13 @@ const GENRES: Genre[] = [
       { id: "product-1", title: "Product Reel 1", embedUrl: "https://www.youtube.com/embed/HhksAb9rd3E" },
       { id: "product-2", title: "Product Reel 2", embedUrl: "https://www.youtube.com/embed/2GoUcknTmT4" },
       { id: "product-3", title: "Product Reel 3", embedUrl: "https://www.youtube.com/embed/sD2reDAnZK8" },
-      { id: "product-4", title: "Product Reel 4", embedUrl: "https://www.youtube.com/embed/12jLVCO9i0Y" },
-      { id: "product-5", title: "Product Reel 5", embedUrl: "https://www.youtube.com/embed/GRs2Wa6jOZY" }
+      { id: "product-4", title: "Product Reel 4", embedUrl: "https://www.youtube.com/embed/t-KCBXLUa0U" },
+      { id: "product-5", title: "Product Reel 5", embedUrl: "https://www.youtube.com/embed/yUs5LrWpqH0" },
+      { id: "product-6", title: "Product Reel 6", embedUrl: "https://www.youtube.com/embed/OLsMlajcmC4" },
+      { id: "product-7", title: "Product Reel 7", embedUrl: "https://www.youtube.com/embed/qyFlfF_eFbU" },
+      { id: "product-8", title: "Product Reel 8", embedUrl: "https://www.youtube.com/embed/kc8ev0v6MaE" },
+      { id: "product-9", title: "Product Reel 9", embedUrl: "https://www.youtube.com/embed/12jLVCO9i0Y" },
+      { id: "product-10", title: "Product Reel 10", embedUrl: "https://www.youtube.com/embed/GRs2Wa6jOZY" }
     ],
   },
   {
@@ -53,9 +60,11 @@ const GENRES: Genre[] = [
     count: "4 reels",
     items: [
       { id: "mensFashion-1", title: "Men's Fashion Reel 1", embedUrl: "https://www.youtube.com/embed/sseXhDWZLxM" },
-      { id: "mensFashion-2", title: "Men's Fashion Reel 2", embedUrl: "https://www.youtube.com/embed/2GoUcknTmT4" },
-      { id: "mensFashion-3", title: "Men's Fashion Reel 3", embedUrl: "https://www.youtube.com/embed/DqmfWDnjw4E" },
-      { id: "mensFashion-4", title: "Men's Fashion Reel 4", embedUrl: "https://www.youtube.com/embed/GRs2Wa6jOZY" }
+      { id: "mensFashion-2", title: "Men's Fashion Reel 2", embedUrl: "https://www.youtube.com/embed/yUs5LrWpqH0" },
+      { id: "mensFashion-3", title: "Men's Fashion Reel 3", embedUrl: "https://www.youtube.com/embed/2GoUcknTmT4" },
+      { id: "mensFashion-4", title: "Men's Fashion Reel 4", embedUrl: "https://www.youtube.com/embed/ebjeZun4Muo" },
+      { id: "mensFashion-5", title: "Men's Fashion Reel 5", embedUrl: "https://www.youtube.com/embed/DqmfWDnjw4E" },
+      { id: "mensFashion-6", title: "Men's Fashion Reel 6", embedUrl: "https://www.youtube.com/embed/GRs2Wa6jOZY" }
       // { id: "mensFashion-6", title: "Men's Fashion Reel 6", embedUrl: "https://www.instagram.com/reel/Da5N8NwyPGe/embed/" },
     ],
   },
@@ -66,9 +75,13 @@ const GENRES: Genre[] = [
     count: "4 reels",
     items: [
       { id: "ladiesFashion-1", title: "Women's Fashion Reel 1", embedUrl: "https://www.youtube.com/embed/sD2reDAnZK8" },
-      { id: "ladiesFashion-2", title: "Women's Fashion Reel 2", embedUrl: "https://www.youtube.com/embed/12jLVCO9i0Y" },
-      { id: "ladiesFashion-3", title: "Women's Fashion Reel 3", embedUrl: "https://www.youtube.com/embed/lRiYojq7fN4" },
-      { id: "ladiesFashion-4", title: "Women's Fashion Reel 4", embedUrl: "https://www.youtube.com/embed/IRnvhAsKBAE" }
+      { id: "ladiesFashion-2", title: "Women's Fashion Reel 2", embedUrl: "https://www.youtube.com/embed/OLsMlajcmC4" },
+      { id: "ladiesFashion-3", title: "Women's Fashion Reel 3", embedUrl: "https://www.youtube.com/embed/t-KCBXLUa0U" },
+      { id: "ladiesFashion-4", title: "Women's Fashion Reel 4", embedUrl: "https://www.youtube.com/embed/kc8ev0v6MaE" },
+      { id: "ladiesFashion-5", title: "Women's Fashion Reel 5", embedUrl: "https://www.youtube.com/embed/12jLVCO9i0Y" },
+      { id: "ladiesFashion-6", title: "Women's Fashion Reel 6", embedUrl: "https://www.youtube.com/embed/lRiYojq7fN4" },
+      { id: "ladiesFashion-7", title: "Women's Fashion Reel 7", embedUrl: "https://www.youtube.com/embed/r4eklMSSlmo" },
+      { id: "ladiesFashion-8", title: "Women's Fashion Reel 8", embedUrl: "https://www.youtube.com/embed/IRnvhAsKBAE" }
     ],
   }
 ];

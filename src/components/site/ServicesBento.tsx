@@ -128,8 +128,8 @@ function PackageCard({
 
 const PACKAGE_15K = {
   tier: "01 · The Growth Engine",
-  name: "15K GROWTH ENGINE",
-  price: "₹15,000",
+  name: "2X GROWTH ENGINE",
+  price: "Let's Discuss",
   tagline:
     "Built for retail shops, F&B brands, and service businesses ready to build a daily social presence. We come to your site every 4th day and capture everything worth showing.",
   highlight: false,
@@ -147,21 +147,21 @@ const PACKAGE_15K = {
 
 const PACKAGE_20K = {
   tier: "02 · The Premium Build",
-  name: "20K PREMIUM BUILD",
-  price: "₹20,000",
+  name: "5X PREMIUM BUILD",
+  price: "Let's Discuss",
   tagline:
     "For brands where aesthetics are everything — fashion labels, F&B, real estate. Lower frequency, maximum production value. Every frame is art-directed.",
   highlight: true,
   badge: "FULL PRODUCTION",
   deliverables: [
+    { label: "Better Props", value: "Use of Gimbal + Softbox Lights + Accent Lights" },
     { label: "Catalogue Shoots", value: "Full product + lifestyle catalogues", accent: true },
     { label: "Model Sourcing", value: "We handle casting + coordination" },
     { label: "Long-form Content", value: "Brand films, explainers, reels series", accent: true },
     { label: "Static Posts", value: "12–15 art-directed statics" },
     { label: "Shoot Cadence", value: "Bi-weekly concept shoots", accent: true },
     { label: "Production Value", value: "Styled sets, lighting design, props" },
-    { label: "Turnaround", value: "48H rough-cut + revision cycle", accent: true },
-    { label: "Reporting", value: "Bi-weekly performance + creative brief" },
+    { label: "Turnaround", value: "48H rough-cut + revision cycle", accent: true }
   ],
 };
 
