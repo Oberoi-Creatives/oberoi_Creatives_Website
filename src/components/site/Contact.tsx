@@ -10,11 +10,11 @@ import { SectionLabel } from "./SectionLabel";
 const WEB3FORMS_ACCESS_KEY = "9f82bdde-d09a-44e7-9fd1-6cbe2fd30e43";
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 
-type Play = "" | "15k" | "20k" | "custom";
+type Play = "" | "2X" | "5X" | "custom";
 
 const PLAY_OPTIONS: { value: Play; label: string; price: string }[] = [
-  { value: "15k",    label: "15K Growth Engine",  price: "₹15,000/mo" },
-  { value: "20k",    label: "20K Premium Build",  price: "₹20,000/mo" },
+  { value: "2X",    label: "2X Growth Engine",  price: "Let's Discuss" },
+  { value: "5X",    label: "5X Premium Build",  price: "Let's Discuss" },
   { value: "custom", label: "Custom Build",        price: "Let's talk" },
 ];
 
