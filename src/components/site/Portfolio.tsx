@@ -21,7 +21,7 @@ const GENRES: Genre[] = [
     id: "promo",
     label: "[STORE PROMO]",
     description: "Shop aesthetics, collection overview, shop walkthroughs, architectural B-roll.",
-    count: "8 reels",
+    count: "10 reels",
     items: [
       { id: "promo-1", title: "Store Promo Reel 1", embedUrl: "https://www.youtube.com/embed/lRiYojq7fN4" },
       { id: "promo-2", title: "Store Promo Reel 2", embedUrl: "https://www.youtube.com/embed/EE8iAAUzkD0" },
@@ -39,7 +39,7 @@ const GENRES: Genre[] = [
     id: "productPromot",
     label: "[PRODUCT PROMOTION]",
     description: "Product reveals, macro B-roll, feature highlights, unboxings, voice-over explainers.",
-    count: "5 reels",
+    count: "10 reels",
     items: [
       { id: "product-1", title: "Product Reel 1", embedUrl: "https://www.youtube.com/embed/HhksAb9rd3E" },
       { id: "product-2", title: "Product Reel 2", embedUrl: "https://www.youtube.com/embed/2GoUcknTmT4" },
@@ -57,7 +57,7 @@ const GENRES: Genre[] = [
     id: "mensFashion",
     label: "[MEN'S FASHION]",
     description: "Catalogue stills, lookbooks, new arrivals, B-roll, product reveals.",
-    count: "4 reels",
+    count: "6 reels",
     items: [
       { id: "mensFashion-1", title: "Men's Fashion Reel 1", embedUrl: "https://www.youtube.com/embed/sseXhDWZLxM" },
       { id: "mensFashion-2", title: "Men's Fashion Reel 2", embedUrl: "https://www.youtube.com/embed/yUs5LrWpqH0" },
@@ -72,7 +72,7 @@ const GENRES: Genre[] = [
     id: "ladiesFashion",
     label: "[WOMEN'S FASHION]",
     description: "Model Shoots, lookbooks, new arrivals, B-roll, product reveals.",
-    count: "4 reels",
+    count: "8 reels",
     items: [
       { id: "ladiesFashion-1", title: "Women's Fashion Reel 1", embedUrl: "https://www.youtube.com/embed/sD2reDAnZK8" },
       { id: "ladiesFashion-2", title: "Women's Fashion Reel 2", embedUrl: "https://www.youtube.com/embed/OLsMlajcmC4" },
